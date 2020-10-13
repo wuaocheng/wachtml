@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#name{
+				background-color: red;
+				font-size: 30px;
+			}
+			#haha{
+				background-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="name">江西软件职业技术大学</p>
+		<h1 id="haha">学校简介</h1>
+		<h1>学校简介</h1>
+		<h1>学校简介</h1>
+		<h1>学校简介</h1>
+		<button type="submit" id=btn>提交</button>
+		<script>
+			var target=document.getElementById("btn");
+			target.onclick=function(){
+				alert("你点击了我");
+			}
+			document.body.onmouseenter=function(){
+				alert("鼠标进来了");
+			}
+			document.body.onmousemove=funtion(){
+				console.log("鼠标在移动");
+			}
+			document.body.onmouseleave=function(){
+				console.log("鼠标离开");
+			}
+		</script>
+	</body>
+</html>
